@@ -1,0 +1,158 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.rectangle-1{
+    width: 480px;
+    height: 250px;
+    background-color: rgb(235, 225, 225);
+    border:15px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    top: 340px;
+    left: 400px;
+    
+
+}
+
+.oval-middle{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 50px;
+    top: 520px;
+    left: 590px;
+    
+}
+
+.smol-oval1{
+    width: 55px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50px;
+    top: 534px;
+    left: 605px;
+    
+}
+
+.smol-oval1:hover{
+    background-color: grey;
+}
+
+.smol-oval2{
+    width: 55px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50px;
+    top: 534px;
+    left: 670px;
+    
+}
+
+.smol-oval2:hover{
+    background-color: grey;
+}
+.square1{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    top: 390px;
+    left: 475px;
+    border-radius: 10px;
+    
+}
+
+.square2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    top: 465px;
+    left: 475px;
+    border-radius: 10px;
+
+}
+
+.square3{
+    width: 115px;
+    height: 50px;
+    background-color: black;
+    top: 427px;
+    left: 443px;
+    border-radius: 10px;
+}
+
+.touch1{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    top: 395px;
+    left: 480px;
+    border-radius: 10px;
+    
+}
+
+.touch1:hover{
+    background-color: grey;
+}
+
+.touch2{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    top: 470px;
+    left: 480px;
+    border-radius: 10px;
+}
+
+.touch2:hover{
+    background-color: grey;
+}
+
+.touch3{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    top: 432px;
+    left: 447px;
+    border-radius: 10px;
+}
+
+.touch3:hover{
+    background-color: grey;
+}
+
+.touch4{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    top: 432px;
+    left: 513px;
+    border-radius: 10px;
+}
+
+.touch4:hover{
+    background-color: grey;
+}
+
+.eye{
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    top: 410px;
+    left: 762px;
+    border-radius: 10px;
+    transform: scale(1, 1);
+
+}
+
+.eye:hover{
+    transform: scale(-1, 0.2);
+   
+}
